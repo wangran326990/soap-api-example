@@ -1,0 +1,5 @@
+package com.wangran.model;
+
+public class Product {
+
+}

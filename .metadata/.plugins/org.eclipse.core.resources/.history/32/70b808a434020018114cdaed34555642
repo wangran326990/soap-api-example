@@ -1,0 +1,5 @@
+package com.wangran.soap.api;
+
+public interface ProductCatalogInterface {
+
+}

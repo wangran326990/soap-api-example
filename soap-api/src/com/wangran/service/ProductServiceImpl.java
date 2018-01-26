@@ -3,6 +3,8 @@ package com.wangran.service;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.wangran.model.Product;
+
 public class ProductServiceImpl {
 	
 	List<String> bookList = new ArrayList<>();
@@ -62,5 +64,14 @@ public class ProductServiceImpl {
 			}
 		}
 		return false;
+	}
+	
+	public List<Product> getProducts(){
+		List<Product> products = new ArrayList<>();
+		products.add(new Product("Product 1", "001", 99.99));
+		products.add(new Product("Product 2", "002", 97.99));
+		products.add(new Product("Product 3", "003", 91.99));
+		
+		return products;
 	}
 }
